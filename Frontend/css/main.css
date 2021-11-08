@@ -1,0 +1,149 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:honeydew;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background-image: url(../img/cabecera.png);
+    background-size: 100% 20%;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+}
+
+#login-container header #menu1{
+    padding: 0px 0px;
+}
+
+
+header #menu1 ul{
+    margin: 0;
+    padding: 0;
+}
+
+header #menu1 ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+header #menu1 ul li a{
+    display: inline-block;
+}
+
+header #menu1 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+header #menu1 ul li a:hover{
+    text-decoration: underline;
+    color:yellow;
+}
+
+header #menu1 ul #logo{
+    margin-right: 40%;
+    margin-left: 100px;
+}
+
+
+/***************************/
+#main-container header main{
+    margin: 0 auto;
+    width: 1400px;
+}
+#main-container header main div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-container header main .text h1{   
+    font-size: 80px;
+    color: black;
+}
+
+#main-container header main .text p{   
+    font-size: 24px;
+    padding: 20px 0;
+    color: #000;
+}
+
+button{
+    background: #24d9e6;
+    border: 0;
+    border-radius:  3px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin: 40px 0;
+}
+
+button:hover{
+    background: #14929b;
+}
+
+#main-container header main .image{   
+    text-align: right;
+    width: 700px;
+}
+
+
+/********************************************/
+
+
+.layout{
+    width: 1280px;
+    margin: 250px auto;
+}
+
+#main-container .section .layout div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-container .section .layout h3{
+    font-size: 48px;
+    padding: 25px 0;
+}
+
+#main-container .section .layout p{
+    padding: 25px 0;
+    line-height: 32px;
+}
+
+#main-container .section .layout-left .text{
+    width: 500px;
+}
+
+#main-container .section .layout-left .image{
+    width: 770px;
+    text-align: right;
+}
+
+#main-container .section .layout-right .text{
+    width: 500px;
+}
+
+#main-container .section .layout-right .image{
+    width: 770px;
+    text-align: center;
+}
+
+
+
+
+footer{
+    background-color: #000;
+    font-style: oblique;
+    padding: 150px 20px;
+    color: white;
+    text-align: center;
+}

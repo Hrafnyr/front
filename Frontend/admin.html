@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBlog- Vista Administrador</title>
+    <link rel="stylesheet" href="css/admin.css">
+    
+</head>
+<body onload="verificacionAdmin(); tablaUsuarios();">
+    <div id="login-container">  
+        <header>
+            <div id="menu2">
+                <ul class="barrra">
+                    <li id="logo"><a href="#"><img src="img/logo1.png"></a></li>
+                    <li><a onclick="return cerrarSesion();">Salir</a></li>
+                    <li><img class="fotoperfil" src="img/perfilpredeterminado.png" width="90px"></li>
+                </ul>
+            </div>
+        </header>   
+    </div>
+    <div class="wrap">
+        <ul class="tabs">
+            <li><a href="#tab1"><span>Usuarios</span></a></li>
+            <li><a href="#tab2"><span>Carga Usuarios</span></a></li>
+            <li><a href="#tab3"><span>Carga Publicaciones</span></a></li>
+        </ul>
+        <div class="secciones">
+            <article id="tab1">
+                <h1>Vista de Usuarios</h1>
+                <table class="tabla1" id="table">
+                    <tr id="encabezado">
+                        <td>No.</td>
+                        <td>Nombre</td>
+                        <td>Género</td>
+                        <td>Usuario</td>
+                        <td>Correo</td>
+                        <td>Contraseña</td>
+                        <td>Opciones</td>
+                    </tr>
+                </table>
+            </article>
+            <article id="tab2">
+                <h1>Seleccione un archivo en formato JSON </h1>
+                <p><input id="archivo1" type="file" value="Seleccionar archivo"> <button type="button" onclick="cargaMasiva();" id="carga1">Cargar</button></p>
+            </article>
+            <article id="tab3">
+                <h1>Seleccione un archivo en formato JSON </h1>
+                <p><input id="archivo2" type="file" value="Seleccionar archivo"> <button type="button" onclick="cargaMasiva2();" id="carga2" >Cargar</button></p>
+            </article>
+        </div>
+    </div>
+    
+   
+
+
+    <script src="/Frontend/js/verificacionAdmin.js"> </script>
+    <script src="/Frontend/js/cerrarSesion.js"> </script>
+    <script src=" https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/Frontend/jquery/jquery.min.js"></script>
+    <script src="/Frontend/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/Frontend/js/pestanas.js"></script>
+    <script src="/Frontend/js/cargaMasiva.js"></script>
+    <script src="/Frontend/js/cargaMasiva2.js"></script>
+    <script src="/Frontend/js/tablaUsuarios.js"></script>
+
+</body>
+</html>

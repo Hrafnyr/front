@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color:honeydew;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+header{
+    background-image: url(../img/cabecera.png);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    height: 25vh;
+    color: #000;
+}
+
+#login-container header #menu1{
+    padding: 0px 0px;
+}
+
+header #menu2 ul{
+    margin: 0;
+    padding: 0;
+}
+
+header #menu2 ul #logo{
+    
+    display: inline-block;
+    padding: 0px 850px 0px 0px;
+    vertical-align: middle;
+    color:#000;
+    text-decoration: none;
+}
+
+header #menu2 ul li{
+    text-align: right;
+    display: inline-block;
+    padding: 0px 0px 5px 50px;
+    vertical-align: middle;
+    color:#000;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+header #menu2 ul li a{
+    font-size: 25px;
+    color:white;
+    text-decoration: solid;
+}
+
+header #menu2 ul li a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+
+.fotoperfil{
+    width:92px;
+    height:92px;
+    border-radius:150px;
+}
+
+
+.wrap{
+    width: 1000px;
+    max-width: 90%;
+    height: 369px;
+    margin: 30px auto;
+}
+
+ul.tabs{
+    width: 100%;
+    background: #070847e0;
+    list-style: none;
+    display: flex;
+}
+
+ul.tabs li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.active {
+    background-color: rgb(16, 95, 46);
+}
+
+ul.tabs li {
+    width: 35%;
+}
+
+.secciones{
+    width: 100%;
+    background-color: white;
+}
+
+.secciones article{
+    padding: 30px;
+}
+
+.secciones #tab2 p #archivo1{
+    border-radius: 75px;
+    font-size: 20px;
+    width: 50%;
+    padding: 15px 10px;
+    background-color: rgb(219, 238, 137);
+    display: inline-block;
+}
+
+.secciones #tab2 p #carga1{
+    border-radius: 75px;
+    font-size: 20px;
+    width: 20%;
+    padding: 10px 10px;
+    background-color: rgb(219, 238, 137);
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secciones #tab3 p #archivo2{
+    border-radius: 75px;
+    font-size: 20px;
+    width: 50%;
+    padding: 15px 10px;
+    background-color: rgb(219, 238, 137);
+    display: inline-block;
+}
+
+.secciones #tab3 p #carga2{
+    border-radius: 75px;
+    font-size: 20px;
+    width: 20%;
+    padding: 10px 10px;
+    background-color: rgb(219, 238, 137);
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secciones article table{
+   width: 100%;
+   border: #000 1px solid;
+}
+
+.secciones article table #encabezado td{
+   border: #000 2px solid;
+   text-align: center;
+   font-size: larger;
+   background-color: rgb(22, 6, 68);
+   color:#FFF;
+}
+
+.secciones article table #user td{
+    border: #000 1px solid;
+    text-align: center;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.secciones #tab1 h1{
+ 
+    padding: 0px 0px 20px 300px;
+}
+
+.secciones #tab2 h1{
+ 
+    padding: 0px 0px 25px 110px;
+}
+
+.secciones #tab3 h1{
+ 
+    padding: 0px 0px 25px 110px;
+}
+
+.secciones article table #user td #editar{
+   
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+    background-color: rgb(126, 138, 247);
+    border: #000 solid 1px;
+    border-radius: 15%;
+}
+
+.secciones article table #user td #editar:hover{
+   
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+    background-color: rgb(236, 236, 236);
+    border: #000 solid 1px;
+    border-radius: 15%;
+}
+
+.secciones article table #user td #eliminar{
+   
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+    background-color: rgb(233, 48, 48);
+    border: #000 solid 1px;
+    border-radius: 15%;
+}
+
+.secciones article table #user td #eliminar:hover{
+   
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border: #000 solid 1px;
+    border-radius: 15%;
+}

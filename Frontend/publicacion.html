@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBlog - Nueva publicación</title>
+    <link rel="stylesheet" href="css/publicacion.css">
+</head>
+<body onload="verificarInicio()">
+    <div id="login-container">  
+        <header>
+            <div id="menu2">
+                <ul>
+                    <li id="logo"><a href="#"><img src="img/logo1.png"></a></li>
+                    <li><h1>Nueva Publicación</h1></li>
+                </ul>
+            </div>
+           
+           <main> 
+                <div id="text">
+
+                    <div class="url">
+                        <h2>URL:</h2>
+                        <input type="url" id="url" size="55"  maxlength="400" placeholder="Ingrese la URL" name="direccion">
+                    </div>
+                    
+                    <div class="opcion">
+                            <h2>Tipo de publicación:</h2>
+                            <ul>
+                                    <li> 
+                                        <h6>Imagen</h6>
+                                        <input type="radio" id="tipo" value="image" name="tipo">  
+                                    </li>
+                                    <li>
+                                        <h6>Video</h6>
+                                        <input type="radio" id="tipo" value="video"  name="tipo"> 
+                                    </li>
+                            </ul>
+                    </div>
+
+                    <div class="opcion2">
+                            <h2>Categoría:</h2>
+                            <input type="text" id="categoria" size="45"  maxlength="15" placeholder="Escriba una Categoría" name="categoria">
+                    </div>
+                   
+                    <div class="botones">
+                        <a id="log" onclick="return nuevoPost();">Publicar</a>
+                        <br><br>
+                        <h5><a href="principal.html"> Regresar</a></h5>
+                    </div>
+                </div>
+                
+            </main>
+
+            
+        </header>
+
+       
+
+       <footer>
+        UBlog © Derechos Reservados <br>
+        Creado y diseñado por Moises David Maldonado de León <br>
+        Correo: moises.david.maldonado337@gmail.com
+        </footer>
+    </div>  
+    <script src="/Frontend/js/verificarInicio.js"> </script>
+    <script src="/Frontend/js/nuevoPost.js"></script>
+</body>
+</body>
+</html>

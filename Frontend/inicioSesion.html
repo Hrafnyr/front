@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBlog - Inicio de Sesión</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div id="login-container">  
+        <header>
+            <div id="menu2">
+                <ul>
+                    <li id="logo"><a href="home.html"><img src="img/logo1.png"></a></li>
+                    <li><h1>Inicio de Sesión</h1></li>
+                </ul>
+            </div>
+           
+           <main> 
+                <div class="text">
+                    <h2>Nombre de usuario</h2>
+                    <input id = "txtNickname" type="text" size="45"  maxlength="30" placeholder="Ingrese su nombre de usuario" name="nombre">
+                    <h2>Contraseña</h2>
+                    <input id = "txtPassword" type="password" size="45"  maxlength="30" placeholder="Ingrese su contraseña" name="pass">
+                    <a id="log"  onclick="return login();">Ingresar</a>
+                    <br><br>
+                    <h5><a href="registro.html"> Aún no tengo cuenta</a></h5>
+
+                    
+                </div>
+                
+                
+            </main>
+
+            
+        </header>
+
+       
+
+       <footer>
+        UBlog © Derechos Reservados <br>
+        Creado y diseñado por Moises David Maldonado de León <br>
+        Correo: moises.david.maldonado337@gmail.com
+        </footer>
+    </div>  
+
+    <!--Funcionalidades con javascript-->
+    <script src="/Frontend/js/login.js"></script>
+
+
+</body>
+</html>

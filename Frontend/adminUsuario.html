@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBlog - Actualizar datos</title>
+    <link rel="stylesheet" href="css/usuario.css">
+</head>
+<body onload="verificacionAdmin();">
+    <div id="login-container">  
+        <header>
+            <div id="menu2">
+                <ul>
+                    <li id="logo"><a href="#"><img src="img/logo1.png"></a></li>
+                    <li><h1>Datos de la cuenta</h1></li>
+                </ul>
+            </div>
+           
+           <main> 
+                <div class="text">
+
+                    <h2>Nombre</h2>
+                    <input id ="textoNombre" type="text" size="25"  maxlength="45" placeholder="Ingrese su nombre completo" name="nombre">
+                    <p><h2>Género</h2><ul>
+                        <li> <input  id ="textogen" type="radio" value="masculino" name="gen">Masculino </li>
+                        <li> <input  id ="textogen" type="radio" value="fememino"  name="gen">Femenino </li>
+                        </ul>
+                    </p>
+                        <h2>Nombre de usuario actual</h2>
+                        <input type="text"  id ="textoNickname" size="25"  maxlength="45" placeholder="Ingrese su nombre de usuario actual" name="nicname">
+                        <h2>Correo electrónico</h2>
+                        <input type="email"  id ="textoCorreo" size="25"  maxlength="45" placeholder="Ingrese su correo electrónico" name="correo">
+                        <h2>Contraseña</h2>
+                        <input type="password"  id ="textoPass" size="25"  maxlength="45" placeholder="Ingrese su contraseña" name="passs">
+                        <a id="log" onclick="return mostrarDatos2();">Actualizar</a>
+                        <br><br>
+                        <h5><a href="admin.html"> Regresar</a></h5>
+                    
+                </div>
+                
+            </main>
+
+            
+        </header>
+
+       
+
+       <footer>
+        UBlog © Derechos Reservados <br>
+        Creado y diseñado por Moises David Maldonado de León <br>
+        Correo: moises.david.maldonado337@gmail.com
+        </footer>
+    </div>  
+    <script src="/Frontend/js/verificacionAdmin.js"> </script>
+    <script src="/Frontend/js/adminEditar.js"> </script>
+ 
+</body>
+</html>
